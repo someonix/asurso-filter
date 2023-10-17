@@ -1,0 +1,37 @@
+###########################################################################################
+! Title: ASURSO - Simplifier
+! Expires: 1 days
+! Description: Сделайте АСУ РСО проще с фильтром!
+! Homepage: https://github.com/someonix/asurso-filter
+# Last Update: 17/10/20223 10:47 PM
+###########################################################################################
+
+# Отключаем чат:
+asurso.ru##.cb-chats
+asurso.ru##[href="JavaScript:SetSelectedTab(122, '/angular/school/chats/')"]
+# Отключаем помощь, вряд-ли вы ей пользовались
+asurso.ru##.cb-help
+# Отключаем пустышку
+||asurso.ru/vendor/custom/img/header-right-bg.png$image
+# Отключаем "МСОКО" или дополнительные занятия
+asurso.ru##[href="JavaScript:SetSelectedTab(56, 'window:/webapi/qualityassessment/login')"]
+# Отключаем уведомление дневника внизу об оценках и Д/З
+asurso.ru##.alert-info.alert
+# Отключаем панельку с кнопкой "Наверх" которая перегораживает страничку (на маленьких мониторах)
+asurso.ru##.buttons-panel-fixed.buttons-panel
+# Уведомление о текущем году по которому вы будете учится (вы это сами знаете, самое бесполезное если вы в архив не лезете)
+asurso.ru##.hidden-scr-xs.switch-year-text
+# Было добавлено в целях удобства, можете вернуть (по моему ничего не меняет)
+asurso.ru##li.dropdown:nth-of-type(6)
+# Отключаем иконку которая ничего не делает (от слова совсем):
+asurso.ru##.icon-signout
+asurso.ru##.active.back
+# Отключаем на главной странице то что почти кроме новых юзеров не обращает внимание.
+asurso.ru##.top
+asurso.ru##.alter
+||asurso.ru/extras/img-custom.jpg$image
+# Отключаем метрику
+||mc.yandex.ru^
+||mc.yandex.com^
+||metrika.yandex.ru^
+||metrika.yandex.com^
