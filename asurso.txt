@@ -2,7 +2,6 @@
 ! Title: ASURSO - Simplifier
 ! Description: Сделайте АСУ РСО проще с фильтром!
 ! Homepage: https://github.com/someonix/asurso-filter
-# Last Update: 17/10/20223 10:47 PM
 ###########################################################################################
 
 # Отключаем чат:
@@ -10,6 +9,8 @@ asurso.ru##.cb-chats
 asurso.ru##[href="JavaScript:SetSelectedTab(122, '/angular/school/chats/')"]
 # Отключаем помощь, вряд-ли вы ей пользовались
 asurso.ru##.cb-help
+# Отключаем загрузку в виде: "Пожалуйста, подождите..." делая загрузку страницы плавной
+asurso.ru##div.apploader
 # Отключаем пустышку
 ||asurso.ru/vendor/custom/img/header-right-bg.png$image
 # Отключаем "МСОКО" или дополнительные занятия
