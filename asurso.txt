@@ -1,6 +1,5 @@
 ###########################################################################################
 ! Title: ASURSO - Simplifier
-! Expires: 1 days
 ! Description: Сделайте АСУ РСО проще с фильтром!
 ! Homepage: https://github.com/someonix/asurso-filter
 # Last Update: 17/10/20223 10:47 PM
